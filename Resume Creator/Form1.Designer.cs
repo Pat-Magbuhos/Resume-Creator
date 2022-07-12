@@ -34,11 +34,11 @@ namespace Resume_Creator
             this.buttonConvert = new System.Windows.Forms.Button();
             this.txtbxSelect = new System.Windows.Forms.TextBox();
             this.labelFileName = new System.Windows.Forms.Label();
-            this.txtxFilePath = new System.Windows.Forms.TextBox();
+            this.txtbxFilePath = new System.Windows.Forms.TextBox();
             this.buttonFilePath = new System.Windows.Forms.Button();
             this.labelFilePath = new System.Windows.Forms.Label();
             this.selectFile = new System.Windows.Forms.OpenFileDialog();
-            this.saveFilePath = new System.Windows.Forms.OpenFileDialog();
+            this.saveFilePath = new System.Windows.Forms.FolderBrowserDialog();
             this.SuspendLayout();
             // 
             // labelTitle
@@ -86,13 +86,13 @@ namespace Resume_Creator
             this.labelFileName.TabIndex = 4;
             this.labelFileName.Text = "File Name";
             // 
-            // txtxFilePath
+            // txtbxFilePath
             // 
-            this.txtxFilePath.Location = new System.Drawing.Point(36, 130);
-            this.txtxFilePath.Multiline = true;
-            this.txtxFilePath.Name = "txtxFilePath";
-            this.txtxFilePath.Size = new System.Drawing.Size(614, 35);
-            this.txtxFilePath.TabIndex = 5;
+            this.txtbxFilePath.Location = new System.Drawing.Point(36, 130);
+            this.txtbxFilePath.Multiline = true;
+            this.txtbxFilePath.Name = "txtbxFilePath";
+            this.txtbxFilePath.Size = new System.Drawing.Size(614, 35);
+            this.txtbxFilePath.TabIndex = 5;
             // 
             // buttonFilePath
             // 
@@ -102,6 +102,7 @@ namespace Resume_Creator
             this.buttonFilePath.TabIndex = 6;
             this.buttonFilePath.Text = "Select Path";
             this.buttonFilePath.UseVisualStyleBackColor = true;
+            this.buttonFilePath.Click += new System.EventHandler(this.buttonFilePath_Click);
             // 
             // labelFilePath
             // 
@@ -116,10 +117,6 @@ namespace Resume_Creator
             // 
             this.selectFile.FileName = "SelectFile";
             // 
-            // saveFilePath
-            // 
-            this.saveFilePath.FileName = "Save File";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -127,7 +124,7 @@ namespace Resume_Creator
             this.ClientSize = new System.Drawing.Size(784, 264);
             this.Controls.Add(this.labelFilePath);
             this.Controls.Add(this.buttonFilePath);
-            this.Controls.Add(this.txtxFilePath);
+            this.Controls.Add(this.txtbxFilePath);
             this.Controls.Add(this.labelFileName);
             this.Controls.Add(this.txtbxSelect);
             this.Controls.Add(this.buttonConvert);
@@ -135,7 +132,7 @@ namespace Resume_Creator
             this.Controls.Add(this.labelTitle);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -149,11 +146,11 @@ namespace Resume_Creator
         private System.Windows.Forms.Button buttonConvert;
         private System.Windows.Forms.TextBox txtbxSelect;
         private System.Windows.Forms.Label labelFileName;
-        private System.Windows.Forms.TextBox txtxFilePath;
+        private System.Windows.Forms.TextBox txtbxFilePath;
         private System.Windows.Forms.Button buttonFilePath;
         private System.Windows.Forms.Label labelFilePath;
         private System.Windows.Forms.OpenFileDialog selectFile;
-        private System.Windows.Forms.OpenFileDialog saveFilePath;
+        private System.Windows.Forms.FolderBrowserDialog saveFilePath;
     }
 }
 

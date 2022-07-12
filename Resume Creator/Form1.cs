@@ -28,5 +28,11 @@ namespace Resume_Creator
                 MessageBox.Show("Please Select a JSON File you want to Convert");
             }
         }
+
+        private void buttonFilePath_Click(object sender, EventArgs e)
+        {
+            saveFilePath.ShowDialog();
+            txtbxFilePath.Text = saveFilePath.SelectedPath.ToString();
+        }
     }
 }
