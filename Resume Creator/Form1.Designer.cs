@@ -37,6 +37,8 @@ namespace Resume_Creator
             this.txtxFilePath = new System.Windows.Forms.TextBox();
             this.buttonFilePath = new System.Windows.Forms.Button();
             this.labelFilePath = new System.Windows.Forms.Label();
+            this.selectFile = new System.Windows.Forms.OpenFileDialog();
+            this.saveFilePath = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // labelTitle
@@ -56,6 +58,7 @@ namespace Resume_Creator
             this.buttonSelect.TabIndex = 1;
             this.buttonSelect.Text = "Select File";
             this.buttonSelect.UseVisualStyleBackColor = true;
+            this.buttonSelect.Click += new System.EventHandler(this.buttonSelect_Click);
             // 
             // buttonConvert
             // 
@@ -109,6 +112,14 @@ namespace Resume_Creator
             this.labelFilePath.TabIndex = 7;
             this.labelFilePath.Text = "File Path";
             // 
+            // selectFile
+            // 
+            this.selectFile.FileName = "SelectFile";
+            // 
+            // saveFilePath
+            // 
+            this.saveFilePath.FileName = "Save File";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -141,6 +152,8 @@ namespace Resume_Creator
         private System.Windows.Forms.TextBox txtxFilePath;
         private System.Windows.Forms.Button buttonFilePath;
         private System.Windows.Forms.Label labelFilePath;
+        private System.Windows.Forms.OpenFileDialog selectFile;
+        private System.Windows.Forms.OpenFileDialog saveFilePath;
     }
 }
 

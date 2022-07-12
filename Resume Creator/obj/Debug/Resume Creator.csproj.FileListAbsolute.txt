@@ -1,0 +1,17 @@
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\bin\Debug\Resume Creator.exe.config
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\bin\Debug\Resume Creator.exe
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\bin\Debug\Resume Creator.pdb
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\bin\Debug\PdfSharp.Charting.dll
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\bin\Debug\PdfSharp.dll
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\bin\Debug\PdfSharp.xml
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\bin\Debug\PdfSharp.Charting.xml
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\obj\Debug\Resume Creator.csproj.AssemblyReference.cache
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\obj\Debug\Resume_Creator.Form1.resources
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\obj\Debug\Resume_Creator.Properties.Resources.resources
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\obj\Debug\Resume Creator.csproj.GenerateResource.cache
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\obj\Debug\Resume Creator.csproj.CoreCompileInputs.cache
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\obj\Debug\Resume Creator.csproj.CopyComplete
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\obj\Debug\Resume Creator.exe
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\obj\Debug\Resume Creator.pdb
