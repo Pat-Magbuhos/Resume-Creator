@@ -34,9 +34,6 @@ namespace Resume_Creator
             this.buttonConvert = new System.Windows.Forms.Button();
             this.txtbxSelect = new System.Windows.Forms.TextBox();
             this.labelFileName = new System.Windows.Forms.Label();
-            this.txtbxFilePath = new System.Windows.Forms.TextBox();
-            this.buttonFilePath = new System.Windows.Forms.Button();
-            this.labelFilePath = new System.Windows.Forms.Label();
             this.selectFile = new System.Windows.Forms.OpenFileDialog();
             this.saveFilePath = new System.Windows.Forms.FolderBrowserDialog();
             this.SuspendLayout();
@@ -62,7 +59,7 @@ namespace Resume_Creator
             // 
             // buttonConvert
             // 
-            this.buttonConvert.Location = new System.Drawing.Point(338, 203);
+            this.buttonConvert.Location = new System.Drawing.Point(333, 125);
             this.buttonConvert.Name = "buttonConvert";
             this.buttonConvert.Size = new System.Drawing.Size(92, 35);
             this.buttonConvert.TabIndex = 2;
@@ -87,33 +84,6 @@ namespace Resume_Creator
             this.labelFileName.TabIndex = 4;
             this.labelFileName.Text = "File Name";
             // 
-            // txtbxFilePath
-            // 
-            this.txtbxFilePath.Location = new System.Drawing.Point(36, 130);
-            this.txtbxFilePath.Multiline = true;
-            this.txtbxFilePath.Name = "txtbxFilePath";
-            this.txtbxFilePath.Size = new System.Drawing.Size(614, 35);
-            this.txtbxFilePath.TabIndex = 5;
-            // 
-            // buttonFilePath
-            // 
-            this.buttonFilePath.Location = new System.Drawing.Point(656, 130);
-            this.buttonFilePath.Name = "buttonFilePath";
-            this.buttonFilePath.Size = new System.Drawing.Size(92, 35);
-            this.buttonFilePath.TabIndex = 6;
-            this.buttonFilePath.Text = "Select Path";
-            this.buttonFilePath.UseVisualStyleBackColor = true;
-            this.buttonFilePath.Click += new System.EventHandler(this.buttonFilePath_Click);
-            // 
-            // labelFilePath
-            // 
-            this.labelFilePath.AutoSize = true;
-            this.labelFilePath.Location = new System.Drawing.Point(351, 168);
-            this.labelFilePath.Name = "labelFilePath";
-            this.labelFilePath.Size = new System.Drawing.Size(48, 13);
-            this.labelFilePath.TabIndex = 7;
-            this.labelFilePath.Text = "File Path";
-            // 
             // selectFile
             // 
             this.selectFile.FileName = "SelectFile";
@@ -122,10 +92,7 @@ namespace Resume_Creator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 264);
-            this.Controls.Add(this.labelFilePath);
-            this.Controls.Add(this.buttonFilePath);
-            this.Controls.Add(this.txtbxFilePath);
+            this.ClientSize = new System.Drawing.Size(784, 189);
             this.Controls.Add(this.labelFileName);
             this.Controls.Add(this.txtbxSelect);
             this.Controls.Add(this.buttonConvert);
@@ -147,9 +114,6 @@ namespace Resume_Creator
         private System.Windows.Forms.Button buttonConvert;
         private System.Windows.Forms.TextBox txtbxSelect;
         private System.Windows.Forms.Label labelFileName;
-        private System.Windows.Forms.TextBox txtbxFilePath;
-        private System.Windows.Forms.Button buttonFilePath;
-        private System.Windows.Forms.Label labelFilePath;
         private System.Windows.Forms.OpenFileDialog selectFile;
         private System.Windows.Forms.FolderBrowserDialog saveFilePath;
     }

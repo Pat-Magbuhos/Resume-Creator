@@ -15,3 +15,6 @@ C:\Users\Mags\source\repos\Resume Creator\Resume Creator\obj\Debug\Resume Creato
 C:\Users\Mags\source\repos\Resume Creator\Resume Creator\obj\Debug\Resume Creator.csproj.CopyComplete
 C:\Users\Mags\source\repos\Resume Creator\Resume Creator\obj\Debug\Resume Creator.exe
 C:\Users\Mags\source\repos\Resume Creator\Resume Creator\obj\Debug\Resume Creator.pdb
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mags\source\repos\Resume Creator\Resume Creator\bin\Debug\BouncyCastle.Crypto.dll
