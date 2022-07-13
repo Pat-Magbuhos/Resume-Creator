@@ -16,7 +16,29 @@ namespace Resume_Creator
         {
             InitializeComponent();
         }
+        public class Resume
+        {
+            public string Name { get; set; }
+            public string Profession { get; set; }
+            public string Objective { get; set; }
+            public string Skills { get; set; }
+            public string WorkExperience { get; set; }
+            public string EducationalBackground { get; set; }
+            public string PrimaryEducation { get; set; }
+            public string PrimaryEducationYear { get; set; }
+            public string SecondaryEducation { get; set; }
+            public string SecondaryEducationYear { get; set; }
+            public string TertiaryEducation { get; set; }
+            public string TertiaryCourse { get; set; }
+            public string TertiaryEducationYear { get; set; }
+            public string Awards { get; set; }
+            public string Address { get; set; }
+            public string Email { get; set; }
+            public string ContactNumber { get; set; }
+            public string CharacterReference { get; set; }
+            public string Contact { get; set; }
 
+        }
         private void buttonSelect_Click(object sender, EventArgs e)
         {
             if (selectFile.ShowDialog()== DialogResult.OK)
