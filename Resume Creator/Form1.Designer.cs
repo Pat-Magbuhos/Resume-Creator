@@ -41,14 +41,16 @@ namespace Resume_Creator
             // labelTitle
             // 
             this.labelTitle.AutoSize = true;
-            this.labelTitle.Location = new System.Drawing.Point(311, 9);
+            this.labelTitle.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitle.Location = new System.Drawing.Point(217, 9);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(155, 13);
+            this.labelTitle.Size = new System.Drawing.Size(339, 23);
             this.labelTitle.TabIndex = 0;
             this.labelTitle.Text = "Convert Your JSON File to PDF";
             // 
             // buttonSelect
             // 
+            this.buttonSelect.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSelect.Location = new System.Drawing.Point(656, 52);
             this.buttonSelect.Name = "buttonSelect";
             this.buttonSelect.Size = new System.Drawing.Size(92, 35);
@@ -59,7 +61,8 @@ namespace Resume_Creator
             // 
             // buttonConvert
             // 
-            this.buttonConvert.Location = new System.Drawing.Point(333, 125);
+            this.buttonConvert.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonConvert.Location = new System.Drawing.Point(340, 125);
             this.buttonConvert.Name = "buttonConvert";
             this.buttonConvert.Size = new System.Drawing.Size(92, 35);
             this.buttonConvert.TabIndex = 2;
@@ -78,9 +81,10 @@ namespace Resume_Creator
             // labelFileName
             // 
             this.labelFileName.AutoSize = true;
+            this.labelFileName.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelFileName.Location = new System.Drawing.Point(351, 90);
             this.labelFileName.Name = "labelFileName";
-            this.labelFileName.Size = new System.Drawing.Size(54, 13);
+            this.labelFileName.Size = new System.Drawing.Size(72, 13);
             this.labelFileName.TabIndex = 4;
             this.labelFileName.Text = "File Name";
             // 
@@ -92,6 +96,7 @@ namespace Resume_Creator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(784, 189);
             this.Controls.Add(this.labelFileName);
             this.Controls.Add(this.txtbxSelect);

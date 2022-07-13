@@ -223,9 +223,11 @@ namespace Resume_Creator
                     //save document
                     pdf.Save(sfd.FileName);
                 }
+
             }
 
-                
+            MessageBox.Show("Your Resume Conversion was Successful");
+            this.Close();
             
         }
     }
