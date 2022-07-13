@@ -68,6 +68,7 @@ namespace Resume_Creator
             this.buttonConvert.TabIndex = 2;
             this.buttonConvert.Text = "Convert File";
             this.buttonConvert.UseVisualStyleBackColor = true;
+            this.buttonConvert.Click += new System.EventHandler(this.buttonConvert_Click);
             // 
             // txtbxSelect
             // 
